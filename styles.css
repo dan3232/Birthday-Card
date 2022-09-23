@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background:linear-gradient(#B9B2A9, #675343);
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    color: #ECEBE9;
+    text-shadow: 0 0 4px #463120;
+}
+
+#eurip-img {
+    width: 160px;
+    height: 160px;
+    border: 6px solid #5A3F29;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.date {
+    background:#5A3F29;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+#main-info {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.figure-img {
+    background-image:url(./images/cover.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0 auto;
+    border: 7px solid #5A3F29;
+    border-radius: 10px;
+}
+
+.card {
+    margin-top: 70px;
+}
+
+#first-card:hover {
+    background-image:url(./images/cover-medea.jpg);
+}
+
+#second-card:hover {
+    background-image:url(./images/the-bacchae.jpg);
+}
+
+#third-card:hover {
+    background-image:url(https://media.giphy.com/media/MCeIiRETfwBK2rtGRi/giphy.gif);
+}
+
+#fourth-card {
+    height: 250px;
+    background-size:cover;
+}
+
+#fourth-card:hover {
+    background-image:url(https://media.giphy.com/media/9Y5lm2gIQKADetWVa3/giphy.gif);
+    height: 250px;
+}
+
+#footer {
+    font-style: italic;
+    background: white;
+    color: black;
+    text-shadow: none;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+a {
+ color: black;
+}
